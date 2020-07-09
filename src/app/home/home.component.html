@@ -1,0 +1,23 @@
+
+
+<div class="jumbotron jumbotron-fluid" style="padding-top: 0;">
+    <img src="\assets\img\showcase2.jpg" width="100%">
+</div>
+
+<div class="container">
+    <h1 class="text-center"> Watch videos</h1>
+    <br> <br>
+    
+    <div class="row">
+
+        <div *ngFor="let video of videos" class="mb-3 col-md-4 card text-white bg-primary ">
+            <app-video [video]="video" ></app-video>
+            </div>
+            
+        
+             
+            
+
+    </div>
+
+</div>
